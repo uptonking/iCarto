@@ -190,6 +190,108 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\交通1综合图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\交通2公路版.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\交通3主干线.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\交通4数据渲染图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\交通5公交站亭.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\其他图1空气质量图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\其他图2旅游玩乐图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\其他图3地震灾害.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\国土1地表覆盖.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\国土2地理概况.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\国土3地表覆被指数.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\国土4居民地.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\国土5水系.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\城管1网格图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\城管2执法单位图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\城管3城管垃圾间分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\城管4工地分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\城管5垃圾间分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\测绘1地形图500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\测绘2地形图2000.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\测绘3地形图10000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\测绘4地形图50000.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\社管1智慧社管网格图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\社管2报刊亭分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\社管3电话亭分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\社管4户外健身设施分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\社管5街头座椅与休息亭分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\规划1城区.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\规划2核心城区.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\规划3公厕分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\警用1监控电子眼分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\警用2治安岗亭分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\警用3重大危险源分布图.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\maplist\警用4消防设施分布图.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

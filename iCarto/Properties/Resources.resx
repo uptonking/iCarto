@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,112 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="交通1综合图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\交通1综合图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="交通2公路版" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\交通2公路版.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="交通3主干线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\交通3主干线.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="交通4数据渲染图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\交通4数据渲染图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="交通5公交站亭" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\交通5公交站亭.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="其他图1空气质量图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\其他图1空气质量图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="其他图2旅游玩乐图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\其他图2旅游玩乐图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="其他图3地震灾害" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\其他图3地震灾害.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国土1地表覆盖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\国土1地表覆盖.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国土2地理概况" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\国土2地理概况.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国土3地表覆被指数" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\国土3地表覆被指数.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国土4居民地" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\国土4居民地.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国土5水系" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\国土5水系.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="城管1网格图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\城管1网格图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="城管2执法单位图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\城管2执法单位图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="城管3城管垃圾间分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\城管3城管垃圾间分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="城管4工地分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\城管4工地分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="城管5垃圾间分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\城管5垃圾间分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="测绘1地形图500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\测绘1地形图500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="测绘2地形图2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\测绘2地形图2000.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="测绘3地形图10000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\测绘3地形图10000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="测绘4地形图50000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\测绘4地形图50000.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="社管1智慧社管网格图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\社管1智慧社管网格图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="社管2报刊亭分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\社管2报刊亭分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="社管3电话亭分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\社管3电话亭分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="社管4户外健身设施分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\社管4户外健身设施分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="社管5街头座椅与休息亭分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\社管5街头座椅与休息亭分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="规划1城区" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\规划1城区.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="规划2核心城区" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\规划2核心城区.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="规划3公厕分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\规划3公厕分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="警用1监控电子眼分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\警用1监控电子眼分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="警用2治安岗亭分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\警用2治安岗亭分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="警用3重大危险源分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\警用3重大危险源分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="警用4消防设施分布图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\maplist\警用4消防设施分布图.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
