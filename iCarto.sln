@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto", "iCarto\iCarto.csproj", "{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialSkin", "MaterialSkin\MaterialSkin.csproj", "{F333BB48-3737-4476-8182-75EC76352689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUI", "LollipopUI\LollipopUI.csproj", "{EB11C287-896C-4DBD-8EC4-62E8CAE22110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Debug|x86.ActiveCfg = Debug|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Debug|x86.Build.0 = Debug|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Release|Any CPU.ActiveCfg = Release|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Release|Mixed Platforms.Build.0 = Release|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Release|x86.ActiveCfg = Release|x86
+		{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}.Release|x86.Build.0 = Release|x86
+		{F333BB48-3737-4476-8182-75EC76352689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F333BB48-3737-4476-8182-75EC76352689}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
