@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iCarto.Tests.tests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace iCarto.Tests
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
+            Application.Run(new TESTForm());
         }
     }
 }

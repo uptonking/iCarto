@@ -20,8 +20,7 @@ namespace iCarto.Tests.examples
         static bool exitFlag = false;
 
         // This is the method to run when the timer is raised. 
-        private static void TimerEventProcessor(Object myObject,
-                                                EventArgs myEventArgs)
+        private static void TimerEventProcessor(Object myObject, EventArgs myEventArgs)
         {
             myTimer.Stop();
 
@@ -47,7 +46,7 @@ namespace iCarto.Tests.examples
             myTimer.Tick += new EventHandler(TimerEventProcessor);
 
             // Sets the timer interval to 5 seconds.
-            myTimer.Interval = 2000;
+            myTimer.Interval = 1200;
             myTimer.Start();
 
             // Runs the timer, and raises the event. 
@@ -56,6 +55,7 @@ namespace iCarto.Tests.examples
                 // Processes all the events in the queue.
                 Application.DoEvents();
             }
+            MessageBox.Show("已结束");
             return 0;
         }
     }

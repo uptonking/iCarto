@@ -31,7 +31,7 @@ namespace iCarto
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new MainForm());
-            Application.Run(new TESTSwitchContents());
+            Application.Run(new IndexForm());
             //ESRI License Initializer generated code.
             //Do not make any call to ArcObjects after ShutDownApplication()
             m_AOLicenseInitializer.ShutdownApplication();
