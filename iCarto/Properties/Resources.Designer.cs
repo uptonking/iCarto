@@ -233,16 +233,6 @@ namespace iCarto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap 城管5垃圾间分布图 {
-            get {
-                object obj = ResourceManager.GetObject("城管5垃圾间分布图", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap 测绘1地形图500 {
             get {
                 object obj = ResourceManager.GetObject("测绘1地形图500", resourceCulture);

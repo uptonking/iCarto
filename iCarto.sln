@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialSkin", "MaterialSki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUI", "LollipopUI\LollipopUI.csproj", "{EB11C287-896C-4DBD-8EC4-62E8CAE22110}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto.Tests", "iCarto.Tests\iCarto.Tests.csproj", "{E5F30EEA-D50E-4460-A1CF-549B564DCECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EB11C287-896C-4DBD-8EC4-62E8CAE22110}.Release|x86.ActiveCfg = Release|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

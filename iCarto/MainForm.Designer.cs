@@ -63,11 +63,11 @@ namespace iCarto
             // 
             this.lollipopLabel1.AutoSize = true;
             this.lollipopLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel1.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel1.Location = new System.Drawing.Point(28, 90);
             this.lollipopLabel1.Name = "lollipopLabel1";
-            this.lollipopLabel1.Size = new System.Drawing.Size(92, 18);
+            this.lollipopLabel1.Size = new System.Drawing.Size(92, 17);
             this.lollipopLabel1.TabIndex = 0;
             this.lollipopLabel1.Text = "最热地图模板";
             // 
@@ -75,11 +75,11 @@ namespace iCarto
             // 
             this.lollipopLabel2.AutoSize = true;
             this.lollipopLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel2.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel2.Location = new System.Drawing.Point(170, 90);
             this.lollipopLabel2.Name = "lollipopLabel2";
-            this.lollipopLabel2.Size = new System.Drawing.Size(92, 18);
+            this.lollipopLabel2.Size = new System.Drawing.Size(92, 17);
             this.lollipopLabel2.TabIndex = 1;
             this.lollipopLabel2.Text = "最新地图模板";
             // 
@@ -87,11 +87,11 @@ namespace iCarto
             // 
             this.lollipopLabel3.AutoSize = true;
             this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel3.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel3.Location = new System.Drawing.Point(310, 90);
             this.lollipopLabel3.Name = "lollipopLabel3";
-            this.lollipopLabel3.Size = new System.Drawing.Size(106, 18);
+            this.lollipopLabel3.Size = new System.Drawing.Size(106, 17);
             this.lollipopLabel3.TabIndex = 2;
             this.lollipopLabel3.Text = "基础测绘类地图";
             // 
@@ -99,11 +99,11 @@ namespace iCarto
             // 
             this.lollipopLabel4.AutoSize = true;
             this.lollipopLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel4.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel4.Location = new System.Drawing.Point(490, 89);
             this.lollipopLabel4.Name = "lollipopLabel4";
-            this.lollipopLabel4.Size = new System.Drawing.Size(78, 18);
+            this.lollipopLabel4.Size = new System.Drawing.Size(78, 17);
             this.lollipopLabel4.TabIndex = 3;
             this.lollipopLabel4.Text = "国土类地图";
             // 
@@ -111,11 +111,11 @@ namespace iCarto
             // 
             this.lollipopLabel5.AutoSize = true;
             this.lollipopLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel5.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel5.Location = new System.Drawing.Point(634, 89);
             this.lollipopLabel5.Name = "lollipopLabel5";
-            this.lollipopLabel5.Size = new System.Drawing.Size(78, 18);
+            this.lollipopLabel5.Size = new System.Drawing.Size(78, 17);
             this.lollipopLabel5.TabIndex = 4;
             this.lollipopLabel5.Text = "交通类地图";
             // 
@@ -123,11 +123,11 @@ namespace iCarto
             // 
             this.lollipopLabel6.AutoSize = true;
             this.lollipopLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel6.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel6.Location = new System.Drawing.Point(789, 89);
             this.lollipopLabel6.Name = "lollipopLabel6";
-            this.lollipopLabel6.Size = new System.Drawing.Size(78, 18);
+            this.lollipopLabel6.Size = new System.Drawing.Size(78, 17);
             this.lollipopLabel6.TabIndex = 5;
             this.lollipopLabel6.Text = "规划类地图";
             // 
@@ -135,11 +135,11 @@ namespace iCarto
             // 
             this.lollipopLabel7.AutoSize = true;
             this.lollipopLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel7.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel7.Location = new System.Drawing.Point(940, 89);
             this.lollipopLabel7.Name = "lollipopLabel7";
-            this.lollipopLabel7.Size = new System.Drawing.Size(78, 18);
+            this.lollipopLabel7.Size = new System.Drawing.Size(78, 17);
             this.lollipopLabel7.TabIndex = 6;
             this.lollipopLabel7.Text = "城管类地图";
             // 
@@ -147,11 +147,11 @@ namespace iCarto
             // 
             this.lollipopLabel8.AutoSize = true;
             this.lollipopLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel8.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel8.Location = new System.Drawing.Point(1088, 89);
             this.lollipopLabel8.Name = "lollipopLabel8";
-            this.lollipopLabel8.Size = new System.Drawing.Size(78, 18);
+            this.lollipopLabel8.Size = new System.Drawing.Size(78, 17);
             this.lollipopLabel8.TabIndex = 7;
             this.lollipopLabel8.Text = "社管类地图";
             // 
@@ -159,11 +159,11 @@ namespace iCarto
             // 
             this.lollipopLabel9.AutoSize = true;
             this.lollipopLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel9.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel9.Location = new System.Drawing.Point(1201, 89);
             this.lollipopLabel9.Name = "lollipopLabel9";
-            this.lollipopLabel9.Size = new System.Drawing.Size(50, 18);
+            this.lollipopLabel9.Size = new System.Drawing.Size(50, 17);
             this.lollipopLabel9.TabIndex = 8;
             this.lollipopLabel9.Text = "其他类";
             // 
@@ -230,7 +230,7 @@ namespace iCarto
             // pictureBox7
             // 
             this.pictureBox7.Image = global::iCarto.Properties.Resources.城管1网格图;
-            this.pictureBox7.Location = new System.Drawing.Point(391, 362);
+            this.pictureBox7.Location = new System.Drawing.Point(1147, 134);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(160, 120);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -240,7 +240,7 @@ namespace iCarto
             // pictureBox8
             // 
             this.pictureBox8.Image = global::iCarto.Properties.Resources.社管1智慧社管网格图;
-            this.pictureBox8.Location = new System.Drawing.Point(582, 362);
+            this.pictureBox8.Location = new System.Drawing.Point(1247, 134);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(160, 120);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -271,7 +271,9 @@ namespace iCarto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(800, 480);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
