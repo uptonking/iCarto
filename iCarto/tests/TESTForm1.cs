@@ -16,5 +16,14 @@ namespace iCarto.tests
         {
             InitializeComponent();
         }
+
+        //获取Form的宽度和高度
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.lollipopLabel3.Text = this.ClientSize.Width.ToString();
+            this.lollipopLabel4.Text = this.ClientSize.Height.ToString();
+            this.lollipopLabel5.Text = this.Size.Width.ToString();
+            this.lollipopLabel6.Text = this.Size.Height.ToString();
+        }
     }
 }

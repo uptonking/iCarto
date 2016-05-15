@@ -40,11 +40,12 @@
             // 
             // indexPanel
             // 
+            this.indexPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.indexPanel.Controls.Add(this.label1);
             this.indexPanel.Controls.Add(this.button1);
             this.indexPanel.Location = new System.Drawing.Point(0, 65);
             this.indexPanel.Name = "indexPanel";
-            this.indexPanel.Size = new System.Drawing.Size(800, 535);
+            this.indexPanel.Size = new System.Drawing.Size(1280, 655);
             this.indexPanel.TabIndex = 0;
             // 
             // label1
@@ -68,11 +69,12 @@
             // 
             // editPanel
             // 
+            this.editPanel.BackColor = System.Drawing.SystemColors.Info;
             this.editPanel.Controls.Add(this.label2);
             this.editPanel.Controls.Add(this.button2);
-            this.editPanel.Location = new System.Drawing.Point(-800, 65);
+            this.editPanel.Location = new System.Drawing.Point(-1280, 65);
             this.editPanel.Name = "editPanel";
-            this.editPanel.Size = new System.Drawing.Size(800, 535);
+            this.editPanel.Size = new System.Drawing.Size(1280, 655);
             this.editPanel.TabIndex = 2;
             // 
             // label2
@@ -92,16 +94,18 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "OpenPanel1";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // IndexForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.indexPanel);
             this.Controls.Add(this.editPanel);
             this.Name = "IndexForm";
             this.Text = "在线制图";
+            this.SizeChanged += new System.EventHandler(this.IndexForm_SizeChanged);
             this.indexPanel.ResumeLayout(false);
             this.indexPanel.PerformLayout();
             this.editPanel.ResumeLayout(false);

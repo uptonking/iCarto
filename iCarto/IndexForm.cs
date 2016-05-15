@@ -8,41 +8,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iCarto.common.utils;
 
 namespace iCarto
 {
     public partial class IndexForm : MaterialForm
     {
 
-        Timer timer;
-        int initialLocation = 0;
-        int padding = 50;
 
         public IndexForm()
         {
             InitializeComponent();
 
-            timer = new Timer();
-            timer.Interval = 10;
-            timer.Tick += new EventHandler(timer_Tick);
-
-            initialLocation = this.indexPanel.Location.X;
-
-        }
-
-        void timer_Tick(object sender, EventArgs e)
-        {
-            if (initialLocation + this.indexPanel.Location.X < this.indexPanel.Size.Width)
-            {
-                this.indexPanel.Location = new Point(this.indexPanel.Location.X + padding, this.indexPanel.Location.Y);
-                this.editPanel.Location = new Point(this.editPanel.Location.X + padding, this.editPanel.Location.Y);
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            timer.Start();
+            SlidingManager slidingMgr = new SlidingManager(this.indexPanel, this.editPanel);
+            slidingMgr.SlidingRight();
+            
         }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SlidingManager slidingMgr = new SlidingManager(this.indexPanel, this.editPanel);
+            slidingMgr.SlidingLeft();
+            
+        }
+
+        //方法：Form改变大小时，Panel填充Form
+        private void IndexForm_SizeChanged(object sender, EventArgs e)
+        {
+            this.indexPanel.Width = this.ClientSize.Width;
+            this.indexPanel.Height = this.ClientSize.Height - 65;
+            this.editPanel.Width = this.ClientSize.Width;
+            this.editPanel.Height = this.ClientSize.Height - 65;
+        }
+
+
+
 
 
     }
