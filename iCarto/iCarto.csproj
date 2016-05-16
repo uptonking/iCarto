@@ -338,10 +338,17 @@
     <Folder Include="controller\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ActiveButtons\ActiveButtons.csproj">
+      <Project>{0414c44b-ffa7-4735-97f7-98b9f31b0e1d}</Project>
+      <Name>ActiveButtons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FontAwesomeIcons\FontAwesomeIcons.csproj">
       <Project>{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}</Project>
       <Name>FontAwesomeIcons</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="views\ActiveButtons.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
