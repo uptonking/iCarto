@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUI", "LollipopUI\Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto.Tests", "iCarto.Tests\iCarto.Tests.csproj", "{E5F30EEA-D50E-4460-A1CF-549B564DCECC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesomeIcons", "FontAwesomeIcons\FontAwesomeIcons.csproj", "{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,16 @@ Global
 		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E5F30EEA-D50E-4460-A1CF-549B564DCECC}.Release|x86.ActiveCfg = Release|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using ESRI.ArcGIS.esriSystem;
 using iCarto.tests;
+using iCarto.views;
 
 namespace iCarto
 {
@@ -30,7 +31,8 @@ namespace iCarto
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IndexForm());
+            Application.Run(new StartForm());
+            //Application.Run(new IndexForm());
             //Application.Run(new TESTForm1());
             //ESRI License Initializer generated code.
             //Do not make any call to ArcObjects after ShutDownApplication()

@@ -142,6 +142,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\consts\DirectionEnum.cs" />
     <Compile Include="common\consts\ServerConst.cs" />
     <Compile Include="common\utils\Animate.cs" />
     <Compile Include="common\utils\SlidingManager.cs" />
@@ -178,6 +179,12 @@
     <Compile Include="tests\TESTSwitchContents.Designer.cs">
       <DependentUpon>TESTSwitchContents.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="IndexForm.resx">
       <DependentUpon>IndexForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tests\TESTSwitchContents.resx">
       <DependentUpon>TESTSwitchContents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -326,7 +336,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controller\" />
-    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FontAwesomeIcons\FontAwesomeIcons.csproj">
+      <Project>{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}</Project>
+      <Name>FontAwesomeIcons</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

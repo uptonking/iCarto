@@ -19,7 +19,7 @@ namespace iCarto.service
         public string getMaptThumb(int id)
         {
             int imgId = id;
-            string imgGetUrl = basicServerUrl + "mapt/images/" + imgId;
+            string imgGetUrl = basicServerUrl + "mapt/thumb/id/" + imgId;
 
             HttpWebRequest request = WebRequest.Create(imgGetUrl) as HttpWebRequest;
             HttpWebResponse response = request.GetResponse() as HttpWebResponse;
