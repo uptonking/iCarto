@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iCarto.common.components;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace iCarto.tests
 {
-    public partial class TESTForm1 : Form
+    public partial class TESTForm1 : CustomTitleBarForm
     {
         public TESTForm1()
         {

@@ -4,7 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto", "iCarto\iCarto.csproj", "{57AFCE36-0FE9-45D5-8763-7B1865D35EB0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F333BB48-3737-4476-8182-75EC76352689} = {F333BB48-3737-4476-8182-75EC76352689}
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D} = {0414C44B-FFA7-4735-97F7-98B9F31B0E1D}
 		{EB11C287-896C-4DBD-8EC4-62E8CAE22110} = {EB11C287-896C-4DBD-8EC4-62E8CAE22110}
 	EndProjectSection
 EndProject
@@ -15,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCarto.Tests", "iCarto.Tests\iCarto.Tests.csproj", "{E5F30EEA-D50E-4460-A1CF-549B564DCECC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesomeIcons", "FontAwesomeIcons\FontAwesomeIcons.csproj", "{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveButtons", "ActiveButtons\ActiveButtons.csproj", "{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,16 +75,6 @@ Global
 		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}.Release|x86.ActiveCfg = Release|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{0414C44B-FFA7-4735-97F7-98B9F31B0E1D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

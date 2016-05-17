@@ -66,6 +66,7 @@
         BuildingO = 0xf0f7,
         Bullhorn = 0xf0a1,
         Bullseye = 0xf140,
+        Close = 0xf00d,
         Cab = 0xf1ba,
         Calendar = 0xf073,
         CalendarO = 0xf133,

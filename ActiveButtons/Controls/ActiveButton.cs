@@ -229,8 +229,19 @@ namespace TheCodeKing.ActiveButtons.Controls
                 buttonSize = SystemInformation.CaptionButtonSize;
             }
 
-            base.Width = buttonSize.Width;
-            base.Height = buttonSize.Height;
+            //base.Width = buttonSize.Width;
+            //base.Height = buttonSize.Height;
+
+            ////
+            base.Width = buttonSize.Width+20;
+            base.Height = buttonSize.Height+20;
+
+            base.BackColor = Color.BlueViolet;
+            //base.Location = new Point(100, 100);//Œﬁ–ß…Ë÷√
+
+
+
+            ////
 
             using (Graphics e = Graphics.FromHwnd(Handle))
             {

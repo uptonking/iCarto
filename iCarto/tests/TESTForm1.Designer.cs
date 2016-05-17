@@ -53,11 +53,11 @@
             // 
             this.lollipopLabel1.AutoSize = true;
             this.lollipopLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel1.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel1.Location = new System.Drawing.Point(14, 93);
             this.lollipopLabel1.Name = "lollipopLabel1";
-            this.lollipopLabel1.Size = new System.Drawing.Size(115, 18);
+            this.lollipopLabel1.Size = new System.Drawing.Size(112, 17);
             this.lollipopLabel1.TabIndex = 1;
             this.lollipopLabel1.Text = "ClientSize宽度：";
             // 
@@ -65,11 +65,11 @@
             // 
             this.lollipopLabel2.AutoSize = true;
             this.lollipopLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel2.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel2.Location = new System.Drawing.Point(15, 135);
             this.lollipopLabel2.Name = "lollipopLabel2";
-            this.lollipopLabel2.Size = new System.Drawing.Size(115, 18);
+            this.lollipopLabel2.Size = new System.Drawing.Size(112, 17);
             this.lollipopLabel2.TabIndex = 2;
             this.lollipopLabel2.Text = "ClientSize高度：";
             // 
@@ -77,11 +77,11 @@
             // 
             this.lollipopLabel3.AutoSize = true;
             this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel3.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel3.Location = new System.Drawing.Point(152, 92);
             this.lollipopLabel3.Name = "lollipopLabel3";
-            this.lollipopLabel3.Size = new System.Drawing.Size(100, 18);
+            this.lollipopLabel3.Size = new System.Drawing.Size(95, 17);
             this.lollipopLabel3.TabIndex = 3;
             this.lollipopLabel3.Text = "lollipopLabel3";
             // 
@@ -89,11 +89,11 @@
             // 
             this.lollipopLabel4.AutoSize = true;
             this.lollipopLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel4.Font = new System.Drawing.Font("Roboto Medium", 10F);
+            this.lollipopLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lollipopLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.lollipopLabel4.Location = new System.Drawing.Point(152, 135);
             this.lollipopLabel4.Name = "lollipopLabel4";
-            this.lollipopLabel4.Size = new System.Drawing.Size(100, 18);
+            this.lollipopLabel4.Size = new System.Drawing.Size(95, 17);
             this.lollipopLabel4.TabIndex = 4;
             this.lollipopLabel4.Text = "lollipopLabel4";
             // 
@@ -159,8 +159,17 @@
             this.Controls.Add(this.lollipopLabel2);
             this.Controls.Add(this.lollipopLabel1);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             this.Name = "TESTForm1";
-            this.Text = "TESTForm1";
+            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel1, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel2, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel3, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel4, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel8, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel7, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel6, 0);
+            this.Controls.SetChildIndex(this.lollipopLabel5, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

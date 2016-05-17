@@ -41,6 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
@@ -142,20 +143,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\components\CustomTitleBarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\components\CustomTitleBarForm.Designer.cs">
+      <DependentUpon>CustomTitleBarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="common\consts\DirectionEnum.cs" />
     <Compile Include="common\consts\ServerConst.cs" />
     <Compile Include="common\utils\Animate.cs" />
     <Compile Include="common\utils\SlidingManager.cs" />
-    <Compile Include="IndexForm.cs">
+    <Compile Include="MainWinForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IndexForm.Designer.cs">
+    <Compile Include="MainWinForm.Designer.cs">
+      <DependentUpon>MainWinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tests\CustomFontForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tests\CustomFontForm.Designer.cs">
+      <DependentUpon>CustomFontForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tests\IndexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tests\IndexForm.Designer.cs">
       <DependentUpon>IndexForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="tests\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="tests\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="model\data\MaptThumbData.cs" />
@@ -179,16 +198,31 @@
     <Compile Include="tests\TESTSwitchContents.Designer.cs">
       <DependentUpon>TESTSwitchContents.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\StartForm.cs">
+    <Compile Include="tests\ZForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\StartForm.Designer.cs">
-      <DependentUpon>StartForm.cs</DependentUpon>
+    <Compile Include="tests\ZForm.Designer.cs">
+      <DependentUpon>ZForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="IndexForm.resx">
+    <Compile Include="views\NewWinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\NewWinForm.Designer.cs">
+      <DependentUpon>NewWinForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="common\components\CustomTitleBarForm.resx">
+      <DependentUpon>CustomTitleBarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWinForm.resx">
+      <DependentUpon>MainWinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tests\CustomFontForm.resx">
+      <DependentUpon>CustomFontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tests\IndexForm.resx">
       <DependentUpon>IndexForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="tests\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -201,9 +235,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tests\TESTSwitchContents.resx">
       <DependentUpon>TESTSwitchContents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="views\StartForm.resx">
-      <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -220,6 +251,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="res\fonts\SourceHanSansSC-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -336,19 +368,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controller\" />
+    <Folder Include="examples\" />
+    <Folder Include="tests\dependencies\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActiveButtons\ActiveButtons.csproj">
-      <Project>{0414c44b-ffa7-4735-97f7-98b9f31b0e1d}</Project>
-      <Name>ActiveButtons</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FontAwesomeIcons\FontAwesomeIcons.csproj">
       <Project>{56F662A1-D1E3-453F-BF74-9D8D03B6AFFC}</Project>
       <Name>FontAwesomeIcons</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="views\ActiveButtons.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
