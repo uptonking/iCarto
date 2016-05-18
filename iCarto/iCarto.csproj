@@ -251,7 +251,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="res\fonts\SourceHanSansSC-Regular.ttf" />
+    <None Include="res\fonts\SourceHanSansSC-Normal.ttf" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
